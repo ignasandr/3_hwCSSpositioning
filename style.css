@@ -1,0 +1,45 @@
+body {
+    background-color: lightgray;
+}
+.wrapper {
+    background-color: #fff;
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px; 
+}
+
+.service h2, .service p {
+    color: #999;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.service {
+    float: left;
+    background-color: #eee;
+    width: 29%;
+    margin: 1%;
+    padding: 1%;
+    height: 110px;
+}
+
+/* .blue {
+    background-color: blue;
+    float: right;
+}
+
+.red {
+    background-color: red;
+    float: right;
+}
+
+.green {
+    background-color: green;
+    float: right;
+}
+
+
+.box {
+    height: 100px;
+    width: 100px;
+} */
