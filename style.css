@@ -26,7 +26,21 @@ body {
     margin: 1%;
     padding: 1%;
     height: 110px;
+    position: relative;
 }
+
+.service:nth-child(1){
+    top: 5px;
+}
+
+.service:nth-child(2){
+    top: 15px;
+}
+
+.service:nth-child(3){
+    top: 25px;
+}
+
 .services:after {
     content: "";
     display: block;
@@ -37,6 +51,7 @@ body {
     padding: 10px;
     clear: left;
     margin: 20px 1%;
+    position: relative;
 }
 
 .content p {
