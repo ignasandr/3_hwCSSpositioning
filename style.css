@@ -77,3 +77,19 @@ section, aside {
     content: "";
     clear: both;
 }
+
+#banner {
+    max-height: 300px;
+    overflow: hidden;
+    margin: 1%;
+    position: relative;
+}
+
+#banner h2{
+    position: absolute;
+    font-size: 14px;
+    margin: 0;
+    top: 90px;
+    width: 100%;
+    text-align: center;
+}
