@@ -43,6 +43,11 @@ body {
     top: 25px;
 }
 
+.services {
+    max-height: 140px;
+    overflow: hidden;
+}
+
 .services:after {
     content: "";
     display: block;
