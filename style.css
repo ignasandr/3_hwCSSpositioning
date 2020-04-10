@@ -93,3 +93,24 @@ section, aside {
     width: 100%;
     text-align: center;
 }
+
+nav {
+    background: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav ul:after {
+    display: block;
+    content: "";
+    clear:both;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 0 10px;
+    color: #fff;
+    float: right;
+}
