@@ -39,6 +39,16 @@ body {
     margin: 20px 1%;
 }
 
+.content p {
+    -webkit-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 50px;
+    column-gap: 50px;
+    -webkit-column-rule: 1px solid #ccc;
+    column-rule: 1px solid #ccc;
+    text-align: justify;
+}
+
 section, aside {
     float: left;
     width: 46%;
@@ -52,24 +62,3 @@ section, aside {
     content: "";
     clear: both;
 }
-
-/* .blue {
-    background-color: blue;
-    float: right;
-}
-
-.red {
-    background-color: red;
-    float: right;
-}
-
-.green {
-    background-color: green;
-    float: right;
-}
-
-
-.box {
-    height: 100px;
-    width: 100px;
-} */
